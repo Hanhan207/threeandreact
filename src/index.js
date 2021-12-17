@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Play from './coms/playwith';
+import ScrollCom from './coms/scroll';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
+    <Play/> */}
+    <ScrollCom/>
   </React.StrictMode>,
   document.getElementById('root')
 );
